@@ -77,18 +77,6 @@ unexplained X-ray sources in the sky.
 
 ---
 
-## How to run it
-
-1. Open [Google Colab](https://colab.research.google.com)
-2. Upload the `.ipynb` file: File → Upload notebook
-3. Run Cell 1 first (installs libraries)
-4. Run any cell — each module is self-contained
-5. Move the sliders to change mass, spin, and particle count live
-
-No local installation needed. Everything runs in the browser.
-
----
-
 ## Project structure
 
 ```
@@ -97,24 +85,7 @@ README.md                     ← this file
 black_hole.gif                ← exported animation (optional)
 ```
 
----
 
-## What each cell does
-
-| Cell | What it teaches | Key concept |
-|------|----------------|-------------|
-| 1 | Setup and imports | numpy, matplotlib |
-| 2 | Draw the black hole | plt.Circle, event horizon |
-| 3 | First animation | FuncAnimation, frame loop |
-| 4 | Many orbiting particles | Kepler's third law |
-| 5 | Heat colors and trails | colormaps, particle history |
-| 6 | GR physics functions | Schwarzschild, ISCO, time dilation |
-| 7 | Interactive sliders | ipywidgets, @interact |
-| 8 | Lensing and jets | Blandford-Znajek, light deflection |
-| 9 | Export animation | pillow writer, GIF/MP4 |
-| 10 | Full simulation | everything combined |
-
----
 
 ## Libraries used
 
@@ -158,4 +129,4 @@ Relativity translates into real, observable phenomena. The simulation uses natur
 
 ## License
 
-MIT — use it, modify it, learn from it.
+MIT 
