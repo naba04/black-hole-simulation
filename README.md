@@ -6,6 +6,7 @@ Simulates real astrophysical phenomena derived from Einstein's field equations:
 accretion disk dynamics, relativistic jets, gravitational lensing, and time dilation.
 
 ---
+https://imgur.com/2QIJeT3
 
 ## What it looks like
 
